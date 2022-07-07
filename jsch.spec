@@ -1,6 +1,6 @@
 Name:           jsch
 Version:        0.1.55
-Release:        1
+Release:        2
 Summary:        A Pure Java implementation of SSH2
 License:        BSD
 URL:            http://www.jcraft.com/jsch/
@@ -55,6 +55,9 @@ zip target/%{name}-%{version}.jar plugin.properties
 %files help -f .mfiles-javadoc
 
 %changelog
+* Wed Jul 13 2022 xiaoqianlv <xiaoqian@nj.iscas.ac.cn> - 0.1.55-2
+- update MANIFEST.MF
+
 * Wed Jun 15 2022 SimpleUpdate Robot <tc@openeuler.org> - 0.1.55-1
 - Upgrade to version 0.1.55
 
